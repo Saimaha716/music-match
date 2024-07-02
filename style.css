@@ -1,0 +1,70 @@
+*{
+    margin:0; padding:0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    width: 40%;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: red;
+
+}
+nav ul li button{
+    background-color:black;
+    color: white;
+    padding: 6px;
+    border-radius: 14px;
+}
+.first{
+    background-color: rgb(250, 245, 245);
+    margin-left: 40px;
+}
+.first h1{
+    font-size: 80px;
+    
+}
+.first div,.second div,.third div,.fourth div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first div ul li{
+    list-style: none;
+
+}
+.main div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    border: 0;
+    cursor: pointer;
+}
+p{
+   text-align: center;
+   font-size: 30px;
+}
+.list{
+display: flex;
+width: 100px;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+}
+.second{
+display: flex;
+cursor: pointer;
+}
+
